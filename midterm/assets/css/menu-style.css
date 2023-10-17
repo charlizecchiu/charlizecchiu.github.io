@@ -1,0 +1,233 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}   
+.header{
+    background-color: #9F761B;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    margin: 0px;
+}
+
+.title{
+    font-family: Inknut Antiqua;
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 1px;
+    
+}
+.address {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-family: Gill Sans, sans-serif;
+    font-size: 20px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    background-color: black;
+    display: flex; 
+    justify-content: space-evenly; 
+}
+
+.nav-item a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 0;
+    text-decoration: none;
+    font-family: Gill Sans, sans-serif;
+    font-size: 18px;
+}
+
+#Welcome {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Menu{
+    font-family: Inknut Antiqua;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 36px;
+}
+
+
+
+#divider-1{
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: auto;
+}
+
+
+.vertical-menu {
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    background-color: black;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    font-family: Inknut Antiqua;
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+.vertical-menu a {
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+
+.vertical-menu a:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+
+.vertical-menu a:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #555;
+    cursor: pointer;
+}
+
+.side-bar {
+    background-color: black;
+    height: 1070px;
+    width: auto;
+}
+
+#menu-ui {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-side {
+    margin-left: 0px; 
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #BCA573;
+}
+
+.menu-item {
+    width: calc(50% - 10px);
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    width: 100%;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu-text {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.menu-price {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Gill Sans';
+    font-size: 24px;
+}
+
+.cart-button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    border-radius: 30px;
+}
+
+.cart-button:hover {
+    cursor: pointer;
+}
+
+.cart-icon {
+    color: white;
+    font-size: 20px;
+}
+
+
+#footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 25px 0;
+    margin: 0px
+}
+
+#socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.social-icons{
+    width: 25px;
+    margin-right: 25px;
+    height: auto;
+}
+
+#footer{
+    font-family: Gill Sans, sans-serif;
+    padding-top: 50px;
+}
+
+.footer-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.footer-hours{
+    margin-top: 10px;
+}
+
+.footer-title{
+    margin-bottom: 12px;
+    margin-top: 25px;
+}
