@@ -1,0 +1,254 @@
+html, body {
+    font-family: Inter, sans-serif;
+    margin: 0px;
+    height: 800px;
+}   
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.logo-header img{
+    width: 120px;
+    margin-left: 50px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 20px;
+    padding: 5px;
+    color: black;
+    display: flex; 
+    justify-content: space-evenly; 
+}
+
+.nav-item a{
+    display: block;
+    text-align: center;
+    margin: 20px;
+    padding: 14px 0;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.nav-item:hover {
+   opacity: 0.5;
+   text-decoration: underline;
+}
+
+#logo-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .7}
+  to {opacity: 1}
+}
+
+/* scrolling text animation */
+.scrolling_text {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    white-space: nowrap;
+}
+
+.text span {
+    margin: 0 4px;
+}
+
+@keyframes animate_text {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Inconsolata;
+    color: black;
+    animation: animate_text 30s linear infinite; /* The animation property */
+}
+
+#about-section {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    align-items: center;
+}
+
+.profile {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 60%;
+    height: auto;
+}
+
+.typewrite {
+    font-family: Inconsolata;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 5px;
+  }
+  
+.about-bio {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-right: 700px;
+    align-items: flex-end;
+}
+
+.blurb {
+    text-align: right;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 40px;
+    line-height: 40px;
+}
+
+#contact-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.contact-tagline {
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.contact-button {
+    font-family: Inconsolata;
+    color: white;
+    background-color: black;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: center;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.contact-button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.button:link {
+    color: white;
+}
+.button:visited {
+    color: whitesmoke;
+  }
+#contact-divider {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#footer {
+    color: white;
+    background-color: black;
+    margin: 0;
+}
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+    margin: 100px;
+    margin-top: 50px;
+}
+
+.footer-name {
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.footer-socials {
+    list-style-type: none;
+    margin: 20px;
+    padding: 5px;
+    color: white;
+    display: flex; 
+    justify-content: space-evenly; 
+}
+
+.socials a{
+    display: block;
+    text-align: center;
+    margin: 20px;
+    padding: 14px 0;
+    font-weight: 100;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.socials:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+/* photo page */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .image {
+  width: 50%;
+}
+
+.container img {
+  width: calc(100% - (80px * 2));
+  margin: 80px;
+}
